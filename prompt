@@ -1,0 +1,244 @@
+in french : 
+Claude, regarde dans cette file (là où se trouve ton lanceur localhost) ou envoie lui le fichier .zip
+
+Bref, la question est la suivante : est-ce que tu peux faire tout cela sur le site avec la meilleure qualité possible ?
+
+* Ajoute une page RGPD (Règlement Général sur la Protection des Données / politique de confidentialité), en précisant que ce site est 100 % éducatif et gratuit.
+* Ajoute une page de CGU (Conditions Générales d’Utilisation).
+* Retire les clés API du front-end (partie du site exécutée côté navigateur).
+* Force au maximum l’utilisation de HTTPS (HyperText Transfer Protocol Secure / protocole de transfert hypertexte sécurisé). Je sais que le site est actuellement en localhost, mais je vais te demander de le recréer en HTTPS.
+* Ajoute une bannière de cookies avec un système de consentement aux cookies, en précisant qu’aucun tracker n’est utilisé et qu’aucune donnée n’est vendue. Ajoute également ces informations dans la page RGPD et fais en sorte que le consentement soit demandé avant l’accès au site.
+* Ajoute des balises Meta Title (balises de titre pour les moteurs de recherche) lorsque cela est nécessaire.
+* Ajoute une image de prévisualisation pour les réseaux sociaux (image Open Graph) et crée une version propre et adaptée en utilisant cette image.
+* Ajoute un favicon (icône du site).
+* Génère un sitemap (plan du site) ainsi qu’un fichier robots.txt.
+* Ajoute des textes alternatifs aux images (attributs alt).
+* Compresse les images afin d’optimiser leur poids.
+* Vérifie la vitesse de chargement de toutes mes pages.
+* Rends le site entièrement responsive (adapté aux ordinateurs, tablettes et téléphones).
+* Ajoute une page 404 personnalisée.
+* Répare les liens cassés. Cette vérification devra notamment être effectuée lorsque le site sera passé en HTTPS.
+* Ajoute une validation complète des formulaires.
+* Ajoute une protection anti-spam, avec notamment un système d’avertissements qui s’affichera sous forme de messages d’erreur en haut à droite de l’écran.
+* Mets en place un outil d’analytics (outil d’analyse des visites et de l’utilisation du site).
+* Utilise un seul
+
+in english : 
+Claude, look in this folder (the one where your localhost launcher is located) or send him the .zip file directly.
+
+Basically, the question is: can you do all of this on the website with the highest possible quality?
+
+* Add a GDPR page (General Data Protection Regulation / Privacy Policy), specifying that this website is 100% educational and free.
+* Add a Terms of Service page.
+* Remove the API keys from the front end.
+* Enforce HTTPS (Hypertext Transfer Protocol Secure) as much as possible. I know the website is currently running on localhost, but I will ask you to recreate it using HTTPS.
+* Add a cookie banner (cookie consent), stating that no trackers are used and no data is sold. Add this information to the GDPR page before users access the website.
+* Add Meta Title tags where necessary.
+* Add a social media preview image (Open Graph image) and create a clean one using this image.
+* Add a favicon.
+* Generate a sitemap and a robots.txt file.
+* Add alternative text to images.
+* Compress the images.
+* Check the loading speed of my pages.
+* Make the website fully responsive.
+* Add a custom 404 error page.
+* Fix broken links (this should be done once the website has been moved to HTTPS).
+* Add form validation.
+* Add anti-spam protection, including a warning system that displays error messages in the top-right corner of the screen.
+* Set up an analytics tool.
+* Use only one clear Call to Action (CTA).
+* Hide the API keys.
+* Purge secrets from Git.
+* Never expose the service_role key on the client side.
+* Enable Row-Level Security (RLS).
+* Encrypt sensitive data.
+* Implement server-side authentication.
+* Lock down access to data.
+* Whitelist the fields that can be modified.
+* Secure session cookies.
+* Hash passwords.
+* Limit login attempts to a maximum of 30.
+* Add anti-bot protection when logging in or creating an account.
+* Use prepared statements.
+* Validate all inputs.
+* Escape user-generated content.
+* Restrict file uploads.
+* Return only the fields that are actually needed.
+* Add security headers.
+* Scan the project dependencies for vulnerabilities.
+
+in espanol :
+Claude, mira en esta carpeta (donde se encuentra tu lanzador de localhost) o envíale directamente el archivo .zip.
+
+En resumen, la cuestión es: ¿puedes hacer todo esto en el sitio web con la mayor calidad posible?
+
+* Añade una página del RGPD (Reglamento General de Protección de Datos / Política de Privacidad), especificando que este sitio web es 100 % educativo y gratuito.
+* Añade una página de Términos y Condiciones de Uso.
+* Elimina las claves de API del front-end (parte del sitio que se ejecuta en el navegador).
+* Fuerza HTTPS (Protocolo Seguro de Transferencia de Hipertexto) al máximo. Sé que el sitio está actualmente en localhost, pero te pediré que lo recrees utilizando HTTPS.
+* Añade un banner de cookies (consentimiento de cookies), indicando que no se utilizan rastreadores y que no se venden datos. Añade esta información a la página del RGPD antes de permitir el acceso al sitio.
+* Añade etiquetas Meta Title (título meta) cuando sea necesario.
+* Añade una imagen de previsualización para redes sociales (imagen Open Graph) y crea una versión limpia utilizando esta imagen.
+* Añade un favicono.
+* Genera un sitemap (mapa del sitio) y un archivo robots.txt.
+* Añade texto alternativo a las imágenes.
+* Comprime las imágenes.
+* Comprueba la velocidad de carga de mis páginas.
+* Haz que el sitio sea completamente adaptable a dispositivos móviles y diferentes tamaños de pantalla.
+* Añade una página 404 personalizada.
+* Repara los enlaces rotos (esto debe hacerse cuando el sitio se haya pasado a HTTPS).
+* Añade validación de formularios.
+* Añade protección antispam, incluido un sistema de advertencias que muestre mensajes de error en la esquina superior derecha de la pantalla.
+* Configura una herramienta de análisis estadístico (analytics).
+* Utiliza un único CTA (Call to Action / llamada a la acción) claro.
+* Oculta las claves de API.
+* Elimina los secretos de Git.
+* Nunca expongas la clave service_role en el lado del cliente.
+* Activa RLS (Row-Level Security / seguridad a nivel de fila).
+* Cifra los datos sensibles.
+* Implementa la autenticación en el lado del servidor.
+* Restringe y protege el acceso a los datos.
+* Incluye en una lista blanca los campos que pueden modificarse.
+* Protege las cookies de sesión.
+* Aplica hash a las contraseñas.
+* Limita los intentos de inicio de sesión a un máximo de 30.
+* Añade protección contra bots durante el inicio de sesión o la creación de una cuenta.
+* Utiliza consultas preparadas.
+* Valida todas las entradas.
+* Escapa el contenido generado por los usuarios.
+* Restringe las subidas de archivos.
+* Devuelve únicamente los campos que sean realmente necesarios.
+* Añade cabeceras de seguridad.
+* Analiza las dependencias del proyecto en busca de vulnerabilidades.
+
+in portuguese :
+Claude, olha nesta pasta (onde está localizado o teu lançador de localhost) ou envia-lhe diretamente o ficheiro .zip.
+
+Resumindo, a questão é: podes fazer tudo isto no site com a maior qualidade possível?
+
+* Adiciona uma página do RGPD (Regulamento Geral sobre a Proteção de Dados / Política de Privacidade), especificando que este site é 100% educativo e gratuito.
+* Adiciona uma página de Termos e Condições de Utilização.
+* Remove as chaves de API do front-end (parte do site executada no navegador).
+* Força HTTPS (Protocolo de Transferência de Hipertexto Seguro) ao máximo. Eu sei que o site está atualmente em localhost, mas vou pedir-te para o recriares utilizando HTTPS.
+* Adiciona um banner de cookies (consentimento de cookies), especificando que não são utilizados rastreadores e que nenhum dado é vendido. Adiciona esta informação à página do RGPD antes de permitir o acesso ao site.
+* Adiciona etiquetas Meta Title (título meta) quando necessário.
+* Adiciona uma imagem de pré-visualização para redes sociais (imagem Open Graph) e cria uma versão limpa utilizando esta imagem.
+* Adiciona um favicon.
+* Gera um sitemap (mapa do site) e um ficheiro robots.txt.
+* Adiciona texto alternativo às imagens.
+* Comprime as imagens.
+* Verifica a velocidade de carregamento das minhas páginas.
+* Torna o site totalmente responsivo.
+* Adiciona uma página 404 personalizada.
+* Corrige os links quebrados (isto deve ser feito quando o site estiver a funcionar em HTTPS).
+* Adiciona validação aos formulários.
+* Adiciona proteção antispam, incluindo um sistema de avisos que apresente mensagens de erro no canto superior direito do ecrã.
+* Configura uma ferramenta de analytics (análise estatística).
+* Utiliza apenas um CTA (Call to Action / chamada para ação) claro.
+* Oculta as chaves de API.
+* Remove os segredos do Git.
+* Nunca exponhas a chave service_role no lado do cliente.
+* Ativa RLS (Row-Level Security / segurança ao nível das linhas).
+* Encripta os dados sensíveis.
+* Implementa a autenticação no lado do servidor.
+* Restringe e protege o acesso aos dados.
+* Coloca numa lista branca os campos que podem ser modificados.
+* Protege os cookies de sessão.
+* Aplica hash às palavras-passe.
+* Limita as tentativas de início de sessão a um máximo de 30.
+* Adiciona proteção contra bots durante o início de sessão ou a criação de uma conta.
+* Utiliza consultas preparadas.
+* Valida todas as entradas.
+* Escapa o conteúdo gerado pelos utilizadores.
+* Restringe os carregamentos de ficheiros.
+* Devolve apenas os campos realmente necessários.
+* Adiciona cabeçalhos de segurança.
+* Analisa as dependências do projeto em busca de vulnerabilidades.
+
+in japanese : 
+Claude、このフォルダを確認してください（あなたの localhost ランチャーがある場所です) または、.zip ファイルを直接送ってください。
+
+要するに、質問はこうです。このウェブサイトに、可能な限り最高品質で以下の対応をすべて行えますか？
+
+* GDPR（一般データ保護規則）に対応したページ（プライバシーポリシー）を追加し、このウェブサイトが100％教育目的で、無料であることを明記する。
+* 利用規約のページを追加する。
+* APIキーをフロントエンド（ブラウザ側）から削除する。
+* HTTPS（Hypertext Transfer Protocol Secure／安全なハイパーテキスト転送プロトコル）を可能な限り強制する。現在サイトが localhost 上で動作していることは分かっていますが、HTTPS を使用する形で再構築してもらう予定です。
+* Cookie バナー（Cookie の同意画面）を追加し、トラッカーを使用しておらず、データを販売していないことを明記する。この情報を GDPR ページにも追加し、サイトへのアクセス前に表示する。
+* 必要に応じて Meta Title（メタタイトル）タグを追加する。
+* ソーシャルメディア用のプレビュー画像（Open Graph 画像）を追加し、この画像を使用して見やすく整理されたものを作成する。
+* ファビコンを追加する。
+* サイトマップ（sitemap）と robots.txt ファイルを生成する。
+* 画像に代替テキストを追加する。
+* 画像を圧縮する。
+* 各ページの読み込み速度を確認する。
+* ウェブサイトを完全にレスポンシブ対応にする。
+* カスタム404エラーページを追加する。
+* 壊れたリンクを修正する（サイトが HTTPS 化された後に実施する）。
+* フォームの入力値を検証する。
+* スパム対策を追加し、画面右上にエラーメッセージとして表示される警告システムも実装する。
+* アナリティクス（アクセス解析）ツールを導入する。
+* 明確な CTA（Call to Action／行動喚起）を1つだけ使用する。
+* APIキーを隠す。
+* Git に保存されている秘密情報を完全に削除する。
+* service_role キーをクライアント側に絶対に公開しない。
+* RLS（Row-Level Security／行レベルセキュリティ）を有効にする。
+* 機密データを暗号化する。
+* サーバー側で認証を行う。
+* データへのアクセスを厳格に制限する。
+* 変更可能なフィールドをホワイトリスト方式で制限する。
+* セッション Cookie を安全に設定する。
+* パスワードをハッシュ化する。
+* ログイン試行回数を最大30回に制限する。
+* ログイン時またはアカウント作成時にボット対策を追加する。
+* プリペアドステートメント（準備済みクエリ）を使用する。
+* すべての入力値を検証する。
+* ユーザーが入力したコンテンツをエスケープする。
+* ファイルのアップロードを制限する。
+* 本当に必要なフィールドだけを返す。
+* セキュリティヘッダーを追加する。
+* プロジェクトの依存関係をスキャンし、脆弱性がないか確認する。
+
+in chinese : 
+Claude，请查看这个文件夹（你的 localhost 启动器所在的位置）或者直接把 .zip 文件发给他。
+
+简单来说，我的问题是：你能否以尽可能高的质量，在这个网站上完成以下所有工作？
+
+* 添加一个 GDPR 页面（《通用数据保护条例》/ 隐私政策），明确说明该网站 100% 用于教育目的，并且完全免费。
+* 添加一个服务条款页面。
+* 从前端（浏览器端）移除 API 密钥。
+* 最大限度地强制使用 HTTPS（安全超文本传输协议）。我知道目前网站运行在 localhost 上，但之后我会要求你将它重新创建为 HTTPS 网站。
+* 添加 Cookie 横幅（Cookie 同意机制），明确说明网站不使用跟踪器，也不会出售任何数据。将这些信息加入 GDPR 页面，并在用户访问网站之前显示相关同意界面。
+* 在需要的地方添加 Meta Title（元标题）标签。
+* 添加社交媒体预览图片（Open Graph 图片），并使用这张图片制作一个干净、整洁的版本。
+* 添加网站图标（favicon）。
+* 生成 sitemap（网站地图）和 robots.txt 文件。
+* 为图片添加替代文本。
+* 压缩图片。
+* 检查所有页面的加载速度。
+* 让网站完全支持响应式布局。
+* 添加自定义 404 错误页面。
+* 修复失效链接（网站迁移到 HTTPS 后进行）。
+* 添加表单验证。
+* 添加反垃圾邮件保护，包括一个警告系统，在屏幕右上角显示错误消息。
+* 设置一个分析工具（Analytics / 数据分析）。
+* 只使用一个明确的 CTA（Call to Action / 行动号召）。
+* 隐藏 API 密钥。
+* 清除 Git 中的所有敏感信息。
+* 绝对不要在客户端暴露 service_role 密钥。
+* 启用 RLS（Row-Level Security / 行级安全）。
+* 对敏感数据进行加密。
+* 使用服务器端身份验证。
+* 严格限制数据访问权限。
+* 将允许修改的字段加入白名单。
+* 保护会话 Cookie。
+* 对密码进行哈希处理。
+* 将登录尝试次数限制为最多 30 次。
+* 在登录或创建账户时添加反机器人保护。
+* 使用预编译查询（Prepared Statements）。
+* 验证所有输入。
+* 对用户生成的内容进行转义。
+* 限制文件上传。
+* 只返回真正需要的字段。
+* 添加安全响应头。
+* 扫描项目依赖项，检查是否存在安全漏洞。
